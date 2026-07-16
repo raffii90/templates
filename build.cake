@@ -9,7 +9,7 @@ Setup<BuildState>(_ =>
     {
         Paths = new BuildPaths
         {
-            SolutionFile = MakeAbsolute(File("./Templates.sln")),
+            SolutionFile = MakeAbsolute(File("./Templates.slnx")),
             NuSpecFile = MakeAbsolute(File("./EMG.Templates.nuspec"))
         }
     };

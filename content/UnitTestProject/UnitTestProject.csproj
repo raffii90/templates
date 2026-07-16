@@ -2,11 +2,11 @@
 
 	<PropertyGroup>
 		<!--#if (TargetFramework == 'netcore') -->
-		<TargetFramework>net8.0</TargetFramework>
+		<TargetFramework>net10.0</TargetFramework>
 		<!-- #elseif (TargetFramework == 'fx')
         <TargetFramework>net48</TargetFramework>
         #elseif (TargetFramework == 'both')
-        <TargetFrameworks>net8.0;net48</TargetFrameworks>
+        <TargetFrameworks>net10.0;net48</TargetFrameworks>
         #endif -->
 		<IsPackable>false</IsPackable>
 		<RootNamespace>Tests</RootNamespace>

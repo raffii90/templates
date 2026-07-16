@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
 	<PropertyGroup>
-		<TargetFramework>net8.0</TargetFramework>
+		<TargetFramework>net10.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<RootNamespace>EMG</RootNamespace>
@@ -15,7 +15,7 @@
 	<ItemGroup>
 		<PackageReference Include="EMG.Extensions.Logging.Loggly" Version="1.5.0" />
 		<PackageReference Include="EMG.Infrastructure.AppSecrets.Configuration.Extensions" Version="1.0.23" />
-		<PackageReference Include="Grpc.AspNetCore" Version="2.67.0" />
+		<PackageReference Include="Grpc.AspNetCore" Version="2.80.0" />
 	</ItemGroup>
 
 	<ItemGroup>

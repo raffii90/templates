@@ -1,0 +1,18 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/content/">
+    <Project Path="content/BatchJobProcessor/BatchJobProcessor.csproj" />
+    <Project Path="content/EventLambdaFunction/EventLambdaFunction.csproj" />
+    <Project Path="content/gRPCService/gRPCService.csproj" />
+    <Project Path="content/HostedService/HostedService.csproj" />
+    <Project Path="content/MassTransit.Consumer/MassTransit.Consumer.csproj" />
+    <Project Path="content/RequestResponseLambdaFunction/RequestResponseLambdaFunction.csproj" />
+    <Project Path="content/UnitTestProject/UnitTestProject.csproj" />
+    <Project Path="content/WebApiHost/WebApiHost.csproj" />
+    <Project Path="content/WindowsService/WindowsService.csproj" />
+  </Folder>
+</Solution>

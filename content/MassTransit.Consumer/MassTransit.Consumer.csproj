@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <RootNamespace>EMG</RootNamespace>
@@ -13,7 +13,7 @@
     <PackageReference Include="Delfi.MassTransit.BusExtensions" Version="1.1.0" />
     <PackageReference Include="EMG.Extensions.Logging.Loggly" Version="1.4.0" />
     <PackageReference Include="EMG.Infrastructure.AppSecrets.Configuration.Extensions" Version="1.0.27" />
-    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.10" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(Transport)' == 'RabbitMq'">

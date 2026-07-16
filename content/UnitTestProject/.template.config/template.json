@@ -31,23 +31,23 @@
             "choices": [
                 {
                     "choice": "netcore",
-                    "description": ".NET Core 2.2"
+                    "description": ".NET 10.0"
                 },
                 {
                     "choice": "fx",
-                    "description": ".NET Framework 4.7.2"
+                    "description": ".NET Framework 4.8"
                 },
                 {
                     "choice": "both",
-                    "description": ".NET Core 2.2 and .NET Framework 4.7.2"
+                    "description": ".NET 10.0 and .NET Framework 4.8"
                 }
             ]
         },
         "AutoFixtureVersion": {
             "type": "parameter",
             "datatype": "text",
-            "defaultValue": "4.11.0",
-            "replaces": "4.11.0",
+            "defaultValue": "4.18.1",
+            "replaces": "4.18.1",
             "isRequired": false,
             "description": "The version of AutoFixture to use when creating the unit test project"
         }
